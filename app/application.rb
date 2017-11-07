@@ -11,7 +11,8 @@ class Application
 
     if num_1
       resp.write "Good Morning!"
-    if num_2
+    else
+      num_2
       resp.write "Good Afternoon!"
     end
 
